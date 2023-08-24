@@ -1,0 +1,291 @@
+
+body {
+    background-color:#93B1A6;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+} 
+.banner{
+    background-color:white;
+    display: flex;
+    padding-right: 20px;
+    align-content: space-between;
+    height:50px;
+}
+.txtbanner{
+    color: black;
+    padding-top: 15px; 
+    display: flex;
+    padding: 10 10%; 
+    font-weight: bold; 
+    
+
+}
+.liv{
+   margin-left: 400px;
+}
+.link {
+    margin-left: auto; /* Pousse les liens vers la droite */
+    display: flex;
+    align-items: center; /* Aligne verticalement les liens au centre */
+    padding: 0 30px;   
+}
+
+.link a {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight:bold;
+    text-decoration: none;
+    padding: 0 10px;
+    
+}
+
+
+
+
+
+.container-fluid{
+    background-color:whitesmoke;
+    height: 80px;
+    margin-bottom: -20px;
+    margin-top:-15px ;
+}
+
+
+
+
+.cart-icon{
+    font-size:  15px;
+    /* font-weight: bold; */
+    margin-top: 10px;
+    
+    color:black;
+}
+  .cart{
+    font-size: 35px;   
+    color:black;
+}
+
+
+   
+
+.tit {
+    font-weight: bolder;
+    font-size: 60px;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-decoration-color: #b76E97;
+    
+}
+.product-card{
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    box-shadow: 0 4px 6px black;
+    display: inline-block; /* Display product cards side by side */
+    vertical-align: top; /* Align product cards at the top */
+}
+ 
+ .product-card img { 
+    max-width: 100%;
+    height: auto; 
+}
+
+ .product-card h2 {
+    margin: 10px 0;
+}
+ 
+
+.price {
+    color:black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+
+.quantity-btn {
+    background-color:slategray;
+    width: 30px;
+    height: 30px;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.add-to-cart,
+.add-to-fav {
+    
+    color: #ccc;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.add-to-fav {
+    background-color: #f39c12;
+}
+.product-container {
+    background-color:#708090;
+    display: flex;
+    gap: 20px; 
+    flex-wrap: wrap; 
+    justify-content: center;
+} 
+
+  footer {
+    background-color:white;
+    height:500px;
+    display: flex ;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+} 
+
+.footer-text{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-right:850px;
+    
+ }
+.img{
+    display: flex;
+}
+
+
+/* .cartes {
+    width:90px;
+    height:50px;
+    margin-right: 130px;
+    padding-top: 30px;
+    
+}    */
+.icons {
+    padding-bottom: 10px;
+    font-size:30px;
+    display: flex;
+    margin-bottom:-40px;
+    margin-left: 1000px;
+    
+}
+.lign {
+    width: 100vw;
+    background-color:pink;
+    height:1px;
+    
+
+}
+.part2{
+    display: flex;
+    flex-direction:row;
+    margin-left: 400px;
+    font-size: 12px;
+    font-weight: bold; 
+
+}
+ .cartes{
+    width: 150px;
+    margin-top: -128px; 
+    margin-right:700px;  
+    padding-top: 40px;
+    font-weight:bold;
+} 
+.footer-text1{
+    margin-right:100px;
+}
+ 
+
+
+.btn {
+    background-color: #b76E97 !important ;
+}
+.part3{
+    justify-content: space-between;
+   display: flex;
+   flex-direction:row; 
+
+}
+ .para1{
+    margin-left: -10px;
+ }
+.para1 a {
+  text-decoration:none;  
+  font-size:10px;
+  font-weight:bold;
+  /* margin-left: -580px; */
+  color:black;
+  display: flex;
+  flex-direction: column;
+  
+}
+.para1 a:hover{
+ 
+ color:#b76E97;
+
+}
+.para2{
+    margin-left:40px;
+}
+
+.para2 a {
+    text-decoration:none;  
+    font-size:10px;
+    font-weight:bold;
+    /* margin-left: -580px; */
+    color:black;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+  }
+  .para2 a:hover{
+   
+   color:#b76E97;
+  
+  }
+  .para3{
+    margin-left: 60px;
+  }
+  .para3 a {
+    text-decoration:none;  
+    font-size:10px;
+    font-weight:bold;
+    /* margin-left: -580px; */
+    color: black;
+    display: flex;
+    flex-direction: column;
+  }
+  .para3 a:hover{
+   
+   color:#b76E97;
+  
+  }
+  .para4  {
+    text-decoration:none;  
+    font-size:10px;
+    font-weight:bold;
+    margin-left: 80px; 
+    color:black;
+    display: flex;
+    flex-direction: column;
+    
+  }
+   .image {
+  padding-left: 300px;
+  padding-top:  30px;
+  }
+ 
+  
+  
+  

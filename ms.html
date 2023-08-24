@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ms.css">
+    <title>Page de Produits</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="banner">
+     <div class="txtbanner">
+      <h6> <i class='bx bxs-phone' ></i> (+216)00123456   </h6>
+      <h6 class="liv"> <i class='bx bxs-package' ></i>Livraison gratuite à partir de 99 dt d'achat</h6>
+     </div>
+     <div class ="link">
+       <div class="contact"><i class='bx bx-message-dots' ></i><a href="contact.html">Contact</a></div>
+       <div class="moncompte"><i class='bx bx-user' ></i><a  href="account .html">Mon compte</a></div>
+     </div>
+
+    </header>
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="logoms2.png" alt="Logo" width="190" height="85" class="d-inline-block align-text-top">
+                
+            </a>
+            <div class="cart-icon">
+                <a class="cart" href="panier.html"><i class='bx bxs-cart'></i></a>
+                
+                <span class="cart-count">0</span>
+            </div>
+        </div>
+    </nav>
+    <div class ="image" > <img src="aff.png" alt="img"> </div>
+    <div class ="tit">NOUVEAUX PRODUITS</div>
+ <div class="product-container">
+
+    
+    <div class="card product-card" style="width: 18rem;">
+        <img src="article1.jpg" class="card-img-top" alt="...">
+        <div class="card-body" id="FILORGA">
+          <h5 class="card-title">FILORGA</h5>
+          <p class="card-text">SOIN SOLAIRE URBAIN UV-DEFENCE 40ML..</p>
+          <h4 class="price" id="price">73,900 TND</h4>
+          <div class="quantity">
+            <button class="quantity-btn decrease-btn">-</button>
+            <span class="quantity-value">1</span>
+            <button class="quantity-btn increase-btn">+</button>
+          </div>
+          <a href="#" class="btn btn-primary" onclick="addtoArr('FILORGA')">Ajouter au panier</a>
+        </div>
+    </div>
+
+
+
+    <div class="card product-card" style="width: 18rem;">
+        <img src="article2.jpg" class="card-img-top" alt="...">
+        <div class="card-body" id="KERASTASE" >
+          <h5 class="card-title">KERASTASE</h5>
+          <p class="card-text">HUILE ELIXIR "ROSE ULTIME" 100ML ..</p>
+          <h4 class="price">115,900 TND</h4>
+          <div class="quantity">
+            <button class="quantity-btn decrease-btn">-</button>
+            <span class="quantity-value">1</span>
+            <button class="quantity-btn increase-btn">+</button>
+          </div>
+          <a href="#" class="btn btn-primary" onclick="addtoArr('KERASTASE')">Ajouter au panier</a>
+        </div>
+    </div>
+
+
+    <div class="card product-card" style="width: 18rem;">
+        <img src="article3.jpg" class="card-img-top" alt="...">
+        <div class="card-body" id="REVOLUTION">
+          <h5 class="card-title">REVOLUTION</h5>
+          <p class="card-text">FOND DE TEINT CONCEAL&DEFINE "FULL COVERAGE..</p>
+          <h4 class="price">39,900 TND</h4>
+          <div class="quantity">
+            <button class="quantity-btn decrease-btn">-</button>
+            <span class="quantity-value">1</span>
+            <button class="quantity-btn increase-btn">+</button>
+          </div>
+          <a href="#" class="btn btn-primary" onclick="addtoArr('REVOLUTION')">Ajouter au panier</a>
+        </div>
+    </div>
+
+
+
+     <div class="card product-card" style="width: 18rem;">
+      <img src="article4.jpg" class="card-img-top" alt="...">
+      <div class="card-body" id="ARTDECO">
+        <h5 class="card-title">ARTDECO</h5>
+        <p class="card-text">LIP GLOSS "PLUMPING"</p>
+        <h4 class="price">29,900</h4>
+        <div class="quantity">
+          <button class="quantity-btn decrease-btn">-</button>
+          <span class="quantity-value">1</span>
+          <button class="quantity-btn increase-btn">+</button>
+        </div>
+        <a href="#" class="btn btn-primary" onclick="addtoArr('ARTDECO')">Ajouter au panier</a>
+      </div>
+  </div> 
+
+</div>
+  <div class ="tit">MEILLEURES VENTES</div>
+  <div class="product-container">
+
+
+  <div class="card product-card" style="width: 18rem;">
+    <img src="article5.jpg" class="card-img-top" alt="...">
+    <div class="card-body" id="ESSENCE">
+      <h5 class="card-title">ESSENCE</h5>
+      <p class="card-text">MASCARA I LOVE EXTREME CRAZY VOLUME</p>
+      <h4 class="price">14,500 TND</h4>
+      <div class="quantity">
+        <button class="quantity-btn decrease-btn">-</button>
+        <span class="quantity-value">1</span>
+        <button class="quantity-btn increase-btn">+</button>
+      </div>
+      <a href="#" class="btn btn-primary" onclick="addtoArr('ESSENCE')">Ajouter au panier</a>
+    </div>
+</div>
+
+
+
+<div class="card product-card" style="width: 18rem;">
+  <img src="article6.jpg" class="card-img-top" alt="...">
+  <div class="card-body" id="SVR">
+    <h5 class="card-title">SVR</h5>
+    <p class="card-text">SUN SECURE "HUILE SECHE SPF50 " 200 ML</p>
+    <h4 class="price">79,900 TND</h4>
+    <div class="quantity">
+      <button class="quantity-btn decrease-btn">-</button>
+      <span class="quantity-value">1</span>
+      <button class="quantity-btn increase-btn">+</button>
+    </div>
+    <a href="#" class="btn btn-primary" onclick="addtoArr('SVR')">Ajouter au panier</a>
+  </div>
+</div>
+
+<div class="card product-card" style="width: 18rem;">
+  <img src="article7.png" class="card-img-top" alt="...">
+  <div class="card-body" id="PALETTE REVOLUTION">
+    <h5 class="card-title"> REVOLUTION</h5>
+    <p class="card-text">PALETTE FARD À PAUPIÈRE</p>
+    <h4 class="price">48,900 TND</h4>
+    <div class="quantity">
+      <button class="quantity-btn decrease-btn">-</button>
+      <span class="quantity-value">1</span>
+      <button class="quantity-btn increase-btn">+</button>
+    </div>
+    <a href="#" class="btn btn-primary" onclick="addtoArr('PALETTE REVOLUTION')">Ajouter au panier</a>
+  </div>
+</div>
+
+
+<div class="card product-card" style="width: 18rem;">
+  <img src="article8.jpg" class="card-img-top" alt="...">
+  <div class="card-body" id="ENERGIE FRUIT">
+    <h5 class="card-title">ENERGIE FRUIT</h5>
+    <p class="card-text">PALETTE FARD À PAUPIÈRE</p>
+    <h4 class="price">53,800 TND</h4>
+    <div class="quantity">
+      <button class="quantity-btn decrease-btn">-</button>
+      <span class="quantity-value">1</span>
+      <button class="quantity-btn increase-btn">+</button>
+    </div>
+    <a href="#" class="btn btn-primary" onclick="addtoArr('ENERGIE FRUIT')">Ajouter au panier</a>
+  </div>
+</div>
+
+
+
+
+
+
+ </div>
+  <footer> 
+    <div class="img">
+    <img src="f1.png"alt="img" width="200" height="150">
+    <img src="f2.png"alt="img" width="200" height="150">
+    <img src="f3.png"alt="img" width="200" height="150">
+    
+    
+  </div>
+  <div class="lign"></div>
+
+  
+
+  
+   <div class ="part2">
+  
+    
+   
+    <div  class="footer-text1"><p><i class='bx bxs-phone'></i>services client<br>(+216) 21 161 000</p></div>
+    <div class="footer-text2"><p><i class='bx bxs-stopwatch'></i>Horaires d'été<br>Lundi - Vendredi : 8h - 15h 
+     Samedi : 8h - 12h</p></div>
+    
+  </div>
+   <div class="cartes"> <p>Cartes acceptées<br><img   src="cartes.png" alt="img" ></p></div>
+    <div class="lign"></div>
+
+
+    <div class="part3">
+      <div class="para1">
+        <h6>MS Beauty Store Tunisie</h6>
+        <a href='#'> Vente de maquillage en ligne</a>
+        <a href='#'> Politique de vente </a>
+        <a href='#'>  Confidentialité </a>
+        <a href="#"> Notre service client |Beautystore Tunisie </a>
+        <a href="#"> sitemap </a>
+      </div>
+      <div class="para2">
+        <h6>TERMES ET CONDITIONS</h6>
+        <a href= "#" >Livraison</a>
+        <a href= "#" >paiement</a>
+      </div>
+      <div class="para3">
+        <h6>VOTRE COMPTE</h6>
+        <a href="#" >Informations personnelles</a>
+        <a href="#">Commandes</a>
+        <a href="#">Avoirs</a>
+        <a href="#">Adresses</a>
+        <a href="#">Bons de réduction</a>
+        <a href="#">Mes points de fidélité</a>
+      </div>
+      <div class="para4">
+        <h6>INFORMATIONS</h6>
+        MSBeautystore.tn
+        Centre Le Millénium, Route de la Marsa
+        Bureau B-7, 1e Étage,
+        2046 Sidi Daoud, Sidi DaoudTunisie
+        <i class='bx bxs-phone-call' ></i>Call us: 21 161 000
+        <i class='bx bxs-envelope' ></i>Email us: info@MSbeautystore.tn
+      </div>
+    </div>
+    
+    <div  class="icons">
+      <i  class='bx bxl-facebook-circle'></i> 
+      <i  class='bx bxl-instagram-alt' ></i>
+      <i  class='bx bxl-youtube' ></i> 
+    </div>
+
+   
+    
+
+    
+   
+  
+    
+    
+    <script src="ms.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+</body>
+</html
