@@ -1,0 +1,34 @@
+*{  
+    background-color:#f1f1f1;
+    
+}
+
+.image{
+    width: 100px;
+    height:50px;
+}
+.button {
+    background-color:#C2D3E1 ;
+    font-size: xx-large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    border-style:groove;
+    cursor: pointer;
+    padding: 0 10%;
+    padding-bottom:-20px;
+    margin-top: 450px;
+    
+
+     
+
+}
+.button a{
+    background-color: #C2D3E1;
+    text-decoration: none;
+    color:black ;
+}
+ 
+
+
+
+
